@@ -1,2 +1,2 @@
 # challenge2017
-Linked Open Data Challenge 2017 Website
+Linked Open Data Challenge 2017 Website (under const.)
