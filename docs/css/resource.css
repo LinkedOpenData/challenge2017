@@ -1,0 +1,66 @@
+/* stylesheet of resource.html */
+h2 {
+  font-size: 25px;
+  color: #808080;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h3.partner-type {
+  font-size: 25px;
+  color: #808080;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* list start */
+ul.partner-list li {
+  font-size: 15px;
+}
+
+ul.partner-list li a {
+  text-decoration: none;
+}
+/* list end */
+
+/* detail start */
+div.partner-detail-list {
+  margin-top: 10px;
+}
+
+div.partner-detail-list-element {
+  margin-bottom: 30px;
+}
+
+div.partner-detail-list-element h4 {
+  color: rgb(247, 150, 70);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 7px;
+  border-bottom: solid 2px;
+  margin-bottom: 10px;
+}
+
+table.partner-table th {
+  width: 16%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+table.partner-table th, td {
+  border-top: 1px solid #ddd;
+  padding: 8px;
+}
+
+table.partner-table td {
+  font-size: 15px;
+}
+
+table.partner-table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+table.partner-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+/* detail end*/
