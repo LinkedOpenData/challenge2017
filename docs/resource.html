@@ -146,6 +146,52 @@
           </table>
         </div>
 
+        <div class="partner-detail-list-element" id="d030">
+        <h4>Linked Traceable Agricultural Product Data</h4>
+        <table class="partner-table">
+          <tr>
+            <th>概要</th>
+            <td>
+              <p>The recent developments of open data initiative in Taiwan is populating linked data on the Web. The effort to interlink data has opportunity to enhance the shareability, extensibility, and re-usability of open data. As such, linked open data potentially provides benefits in improvement of public service and creation of social and economic value.</p>
+              <p>A Traceable Agricultural Product (TAP) record can provide a track about an agricultural product from a farm to a store. The TAP records are published on open data portal. However, the content of the TAP records is often inconsistent as well as not machine-readable. The problems make the TAP records difficult to reuse for adding more value. To deal with the problems, there is a need to improve the data quality of TAP records. Linked data paradigm can be a way to promote TAP records to be shareable, reusable and extensible. This paper reports our expensive to transform TAP records from open data to linked open data, and reuse the linked TAP records in an online recipe service for offering users safety agricultural product.</p>
+              <p>To clarify the concepts in TAP records, a TAP ontology is created on the basis of existing vocabularies such as W3C Time, OGC GeoSPARQL, FOAF, and AGROVOC. To make the content of TAP record consistent, we cleaned the dataset of TAP records to standardize and unify the names of crop, stores (supermarkets), and restaurants. After the data clean process, TAP records are transformed from JSON to RDF, and the RDF triples are populated to three SPARQL endpoints: TAP records, Stores, and Restaurants. With having the three SPARQL endpoints, we developed a Chrome extension for implementing federated SPARQL queries to provide a user where the safety foods come from, where the restaurants provide the safety foods, and what is the price of the foods when the user browse a recipe.</p>
+              <p>The more details on <a href="http://linkedopendata.tw/tap.html">http://linkedopendata.tw/tap.html</a></p>
+            </td>
+          </tr>
+          <tr>
+            <th>利用手続き</th>
+            <td>
+              <p>
+                特に無し
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <th>利用方法</th>
+            <td>We provide three SPARQL endpoints:
+              <ul>
+                <li><a href="http://tap.linkedopendata.tw">tap.linkedopendata.tw</a></li>
+                <li><a href="http://store.linkedopendata.tw">store.linkedopendata.tw</a></li>
+                <li><a href="http://res.linkedopendata.tw">res.linkedopendata.tw</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>利用規定</th>
+            <td>
+              <p> CC BY 4.0</p>
+            </td>
+          </tr>
+          <tr>
+            <th>その他</th>
+            <td>
+              <p>
+                特に無し
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
 
 
                 </div>
