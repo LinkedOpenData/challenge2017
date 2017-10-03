@@ -36,7 +36,8 @@
 			 	<ul class="partner-list">
           <li><a href="#d010">国立国会図書館</a></li>
           <li><a href="#d020">DBpedia Japanese</a></li>
-          <li><a href="#d030">Linked Traceable Agricultural Product Data</a></li>
+          <li><a href="#d030">一般社団法人電子情報通信学会</a></li>
+          <li><a href="#d040">Linked Traceable Agricultural Product Data</a></li>
           <li>順次追加予定</li>
   			</ul>
 				<h2>基盤提供パートナー (50音順)</h2>
@@ -147,7 +148,67 @@
           </table>
         </div>
 
-        <div class="partner-detail-list-element" id="d030">
+        <div class="partner-detail-list-element" id="d010">
+          <h4>一般社団法人電子情報通信学会</h4>
+          <table class="partner-table">
+            <tr>
+              <th>概要</th>
+              <td>
+          <p>IEICE Knowledge Discovery（I-Scover）は、電子情報通信学会の文献検索システムです。I-Scoverは、本会が著作権を有する学術文献や、NTTやNEC、OKIが発行した企業誌の文献メタデータをLinked Dataの形式で管理しており、一般的な検索システムの機能の他にSPARQL APIとOpenSearch APIの機能を提供しています。</p>
+          <p>2017年9月27日現在における文献メタデータの概要は以下の通りです。</p>
+          <ul>
+            <li>文献クラス（Article）: 文献IRI 242,056 triples、タイトル 325,162 triples、キーワードIRI 980,225 triples、概要文 224,109 triples、著者IRI 802,342 triples、（著者の所属）機関IRI 742,398 triples、発行日 239,526 triplesなど。</li>
+            <li>キーワードクラス（Term）: キーワードIRI 326,177 triples、ラベル 327,290 triplesなど。</li>
+            <li>著者クラス（Person）: 著者IRI 277,933 triples、名前 379,689 triplesなど。</li>
+            <li>機関クラス（Organization）: 機関IRI 30,518 triples、ラベル 39,789 triplesなど。</li>
+          </ul>
+          <p>上記のクラスの他にイベント、出版物、オンラインサービス、マルチメディアのクラスがあり、総計14,682,617 triplesから文献メタデータが構成されています。</p>
+          <p>文献メタデータの詳細は、I-Scover-メタデータ仕様書（RDF）　第1.00版をご確認ください。<a href="http://www.ieice.org/~iscover/rdfdef/">http://www.ieice.org/~iscover/rdfdef/</a></p>
+          <p>SPARQLクエリの例やサンプルプログラムを以下のサイトで公開しています。</p>
+          <ul>
+            <li><a href="http://iscover-p.ieice.org/cms/">I-Scoverひろば</a></li>
+            <li><a href="http://www.ieice.org/~iscover/iscover/?page_id=1210">IEICE I-SCOVER PROJECT</a></li>
+            <li><a href="https://www.facebook.com/Iscoveruserforum/">I-Scoverユーザ会</a></li>
+            <li><a href="http://idea.linkdata.org/idea/idea1s2289i">Knowledge Connector</a></li>
+          </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>利用手続き</th>
+              <td>
+          <p>利用申請は不要です。</p>
+              </td>
+            </tr>
+            <tr>
+              <th>利用方法</th>
+              <td>
+          <p>OpenSearch APIは、1クエリあたり1,500件までデータを取得できます。SPARQL APIは、1クエリあたり1,500件までデータを取得できます。電子情報通信学会会員の方は、アプリIDを取得することで最大1万件（SPARQL API）のデータを取得できるようになります。</p>
+          <p>利用方法の詳細は、I-Scover第2期システムAPI仕様書　第1.0版をご確認ください。<a href="http://www.ieice.org/~iscover/rdfdef/">http://www.ieice.org/~iscover/rdfdef/</a></p>
+          <ul>
+            <li><a href="https://i-scover-api.ieice.org/api/opensearch?q=オープンデータ&format=rss">OpenSearch APIの利用例</a></li>
+            <li><a href="http://www.ieice.org/~iscover/iscover/?page_id=1210">IEICE I-SCOVER PROJECT</a></li>
+            <li><a href="https://i-scover-api.ieice.org/iscover/api/sparql?query=select count(*) where { ?s ?p ?o. }&amp;format=text/xml">SPARQL APIの利用例</a></li>
+            <li><a href="https://i-scover-api.ieice.org/iscover/api/sparql">SPARQL APIユーザインタフェース</a></li>
+          </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>利用規定</th>
+              <td>
+          <p>文献メタデータの著作権は、電子情報通信学会に帰属していますが、文献の概要文とキーワードの解説文を除き、第三者展開が可能です。</p>
+          <p>利用規約の詳細は、I-Scoverデータ利用規約をご確認ください。<a href="http://iscover-p.ieice.org/cms/wp-content/uploads/2016/09/I-Scoverデータ利用規約.pdf">http://iscover-p.ieice.org/cms/wp-content/uploads/2016/09/I-Scoverデータ利用規約.pdf</a></p>
+              </td>
+            </tr>
+            <tr>
+              <th>その他</th>
+              <td>
+          <p>特になし</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="partner-detail-list-element" id="d040">
         <h4>Linked Traceable Agricultural Product Data</h4>
         <table class="partner-table">
           <tr>
